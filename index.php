@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="css/swipebox.css">
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!-- //css files -->
+
 <!-- online-fonts -->
 <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
@@ -22,7 +23,7 @@
  <!-- banner -->
 <div class="main_section_agile" id="home">
 	<div class="banner_nav">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default ">
 			<div class="navbar-header navbar-left">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
@@ -39,10 +40,7 @@
 					<input type="submit" value="">
 				</form>
 			</div>
-			<ul class="signin_forms">
-				<li><a class="active" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In now</a> </li>
 			
-			</ul>
 			
 		<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -63,20 +61,32 @@
 	</div>
 </div>
 <!-- banner -->
+<!-- ********************** -->
+<!-- ********************* -->
 <div class="about-bottom">
 	<div class="col-md-6 about_bottom_left">
 		<div class="video-grid-single-page">
-			<div data-video="#" id="video"> <img src="images/banner2.jpg" alt="" class="img-responsive" width="100" height="50"/> </div>
+			<div data-video="#" id="video"> <img src="images/banner2.jpg" alt="" class="img-responsive img-thumbnail" width="100" height="50"/> </div>
 		</div>
 		<div class="about_bottom_left_video">
-			<h4>watch our video</h4>
-			<div class="vedio_img"><a href="http://youtube.com"><img  src="images/play-button.png" alt="" class="img-responsive" /></a> </div>
+			
+			<div class="vedio_img"><a target="_blank" href="http://youtube.com"><img  src="images/play-button.png" alt="" class="img-responsive" /></a> </div>
 		</div>
 		</div>
 	</div>
 	<div class="col-md-6 about_bottom_right one">
+		<ul class="signin_forms">
+				<li><a target="_blank" class="active"href="admin/sign-up.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In </a> </li>
+				<li><a target="_blank" class="active" href="admin/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Admin-login</a> </li>
+				<li><a target="_blank" class="active" href="students/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> students-login</a> </li>
+				<li><a target="_blank" class="active" href="teachers/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Teachers-login</a> </li>
+			</ul>
+		
+			<br><br><br>
 		<div class="abt-section">
 			<div class="header-section">
+		
+		
 				<h2>Admission Form</h2>
 				<h4>Enter the Following Details</h4>
 				<form action="#" method="post" class="mod2">
@@ -107,6 +117,7 @@
 					<div class="clearfix"></div>
 					<div class="agile-submit">
 						<input type="submit" value="submit">
+						
 					</div>
 				</form>
 			</div>
@@ -135,7 +146,7 @@
 			<div class="clearfix"> </div>
 		</div>
 		<div class="col-md-5 wthree-about-grids">
-			<h4>Welcome to Our University</h4>
+			<h4>Welcome to Our Institute</h4>
 			<a href="#" class="trend-section" data-toggle="modal" data-target="#myModal"><span>Read More</span></a>
 			<a href="#mail" class="trend-section scroll"><span>Get In Touch</span></a>
 		</div>
@@ -163,13 +174,13 @@
 <div class="stats" id="stats">
 	<div class="container">
 		<div class="stats-info">
-			<div class="col-md-3 col-xs-3 stats-grid slide_anim">
+			<div class="col-md-3 col-xs-3 stats-grid slideanim">
 				<i class="fa fa-users" aria-hidden="true"></i>
 				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='12760' data-delay='.5' data-increment="1">12760</div>
 				
 				<h4 class="stats-info">FOREIGN FOLLOWERS</h4>
 			</div>
-			<div class="col-md-3 col-xs-3 stats-grid slide_anim">
+			<div class="col-md-3 col-xs-3 stats-grid slideanim">
 				<i class="fa fa-book" aria-hidden="true"></i>
 				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='31000' data-delay='.5' data-increment="1">31000</div>
 				
